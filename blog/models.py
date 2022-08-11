@@ -1,4 +1,5 @@
 import datetime
+
 from redis_om import get_redis_connection, EmbeddedJsonModel, JsonModel, Field, Migrator
 
 redis = get_redis_connection(
